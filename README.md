@@ -36,7 +36,7 @@ It stores timestamped journal entries and tasks in a JSON file that lives in a *
 
 Prerequisites:
 
-* Rust toolchain (rustup/cargo). Tested with Rust 1.XX+ (use `rustup`).
+* Rust toolchain (rustup/cargo). Cargo edition 2024, so Rust 1.85+.
 * (Optional) `git` and network/SSH credentials if you enable push.
 
 Steps:
