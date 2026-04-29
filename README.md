@@ -1,7 +1,7 @@
 # pro_logue
 
 A terminal-based electronic lab notebook/bullet journal written in Rust for users that want to keep a record of what they are doing, when they are doing it, and want to be able to store this securely in silica.
-It stores timestamped journal entries and tasks in a JSON file that lives in a **separate** Git repository (so your data can be private while the program repo stays public). The UI is text-based (ratatui + crossterm) and divided into four quadrants you navigate with `Tab` / `Shift+Tab`.
+It automatically stores entries and tasks with a timestamp in a JSON file that lives in a **separate** Git repository (so your data can be private while the program repo stays public). The UI is text-based (ratatui + crossterm) and divided into four quadrants you navigate with `Tab` / `Shift+Tab`.
 
 
 ![pro_logue_description](assets/overview.png)
