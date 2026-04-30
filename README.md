@@ -25,7 +25,7 @@ It automatically stores entries and tasks with a timestamp in a JSON file that l
 
 * One automatic **Clock-in / Clock-out** entry on startup (created once per day):
   * `CLOCK_IN_TIME = now`
-  * `CLOCK_OUT_TIME = CLOCK_IN_TIME plus your work hours (currently + 9 hours` on Monday/Tuesday, else `+8 hours` for a 41 hr work week)
+  * `CLOCK_OUT_TIME = CLOCK_IN_TIME plus your work hours (currently + 9 hours` on Monday/Tuesday, else `+8 hours` for a 42 hr work week)
   * Entry text: `Clock-in: {CLOCK_IN_TIME}, Clock-out: {CLOCK_OUT_TIME}`
   * This entry is created only once per day (if present, program won’t duplicate it).
 * Each entry & task saved to JSON file, which is committed (and pushed) to a separate Git repository. New entries generate an automated commit.
