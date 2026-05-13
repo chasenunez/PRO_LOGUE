@@ -115,5 +115,4 @@ open a PR or an issue describing the change. Please follow Rust's idioms and kee
 
 
 ## License
-Copyright (C) 2026 Chase Núñez
-**Code:** All of the code in this repository is shared under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0).
+All of the code in this repository is shared under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0).
